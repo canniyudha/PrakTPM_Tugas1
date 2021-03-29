@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C7C8D3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E2B6A"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp">
+
+            <TextView
+                style="@style/CustomFontStyle"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:text="Curriculum Vitae (CV)">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40pt"
+            android:layout_marginRight="120pt"
+            android:background="#6479DF">
+
+            <TextView
+                style="@style/Judul"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Biodata">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="150pt"
+            android:layout_marginRight="110pt"
+            android:background="#6479DF">
+
+            <TextView
+                style="@style/Judul"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Education">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="200pt"
+            android:layout_marginRight="95pt"
+            android:background="#6479DF">
+
+            <TextView
+                style="@style/Judul"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Achievement">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:layout_marginLeft="105pt"
+            android:layout_marginTop="200pt">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/profile">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="2pt"
+            android:layout_marginTop="65pt">
+
+            <TextView
+                style="@style/Tulis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/biodata">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="2pt"
+            android:layout_marginTop="175pt">
+
+            <TextView
+                style="@style/Tulis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/education">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="2pt"
+            android:layout_marginTop="225pt">
+
+            <TextView
+                style="@style/Tulis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="None"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

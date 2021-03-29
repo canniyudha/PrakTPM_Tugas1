@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TugasPrak1_CV</string>
+    <string name="biodata">
+        Nama : Cannigia Yudhayana \nTempat Tanggal Lahir : Yogyakarta, 29 Januari 2000 \nAlamat : Perum Sono Indah C7, Jl Sulawesi, Ringroad Utara, Sleman \nEmail : canni.yudha@yahoo.com \nNo. Telp : 082225433721 \nJenis Kelamin : Laki-Laki \nAgama : Islam \nStatus : Belum Nikah \nTinggi/Berat Badan : 178cm / 74 kg \nGolongan Darah : B \nKewarganegaraan : Indonesia \n
+    </string>
+    <string name="education">
+        2006-2012 : SD Pujokusuman 3 Yogyakarta \n2012-2015 : SMP Al-Azhar 26 Sleman \n2015-2018 : SMA Budi Mulia Dua Sleman \n
+    </string>
+</resources>
